@@ -1,0 +1,63 @@
+
+#nameErr, #mobileErr, #emailErr, #passwordErr, #repasswordErr, #dobErr, #photoErr {
+-fx-text-fill:red;
+}
+
+#mainPane {
+	-fx-background-color:#011936;
+	-fx-background-radius:10px;
+}
+#topPane {
+-fx-background-image:url("images/registerUserTopPane.jpg");
+-fx-background-repeat: stretch;
+-fx-background-position: center center;
+}
+//#leftPane {
+//-fx-background-image: url("images/student1.jpg");
+//-fx-background-repeat: stretch;
+//-fx-background-position: center center;
+//-fx-padding:5;
+//-fx-background-color: #ed254e;
+//-fx-background-radius:5;
+//-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+//#rightPane {
+//-fx-background-color:#011936;
+
+//}
+
+.button{
+  -fx-background-color: #ed254e;
+  -fx-border-radius: 100px;
+  -fx-color: #fff;
+  -fx-text-decoration: none;
+  -fx-font-size:15;
+  -fx-margin: 0 15px;
+  -fx-text-fill:white;
+}
+.button:hover {
+-fx-background-color:#4ec973 ;
+ -fx-text-fill:white;
+}
+.button:pressed {
+ -fx-background-color:#258743;
+}
+.button:onMouseReleased {
+-fx-background-color:red;
+}
+.label {
+-fx-text-fill:white;
+}
+.text-field{
+-fx-background-color: #c2eabd;
+-fx-font: 15px Tahoma;
+}
+.text-field:hover {
+-fx-background-color: white;
+}
+.text-field:focused {
+-fx-background-color: white;
+}
+.date-picker-popup > .month-year-pane {
+-fx-background-color:#011936;
+}
